@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+
+html
+{
+    background-image: linear-gradient(135deg , #FF6969,#6499E9);
+}
+.heading
+{
+    display: flex;
+    align-content: center;
+    justify-content: center ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: bolder;
+    text-shadow: 5px 5px #FFCC70 ;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.middlecontainer
+{
+    
+    background-color: #D83F31;
+    display: flex;
+    flex-direction: row;
+    height: 33rem;
+    width: 55rem;
+   
+
+}
+
+.firstHalf
+{
+    height: 33rem; 
+    width: 50%;
+    border: 2px solid black;
+    background-color: #FF9B9B;
+    border-right: 5px solid black;
+    
+}
+
+.secondHalf
+{
+    height: 33rem; 
+    border: 2px solid black;
+    width: 50%;
+    background-color: #FFFEC4;
+}
+
+
+.player1 , .player2
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+}
+
+.score1, .score2
+{
+    
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 5rem;
+}
+
+
+
+
+
+
+.footer
+{
+    width: 100%;
+    margin-top: 5rem;
+    height: 3rem;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+}
